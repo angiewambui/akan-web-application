@@ -1,0 +1,9 @@
+#background{
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Ftraditional-ndebele-hut-at-botshabelo-mpumalanga-south-africa-picture-id959104002%3Fk%3D6%26m%3D959104002%26s%3D612x612%26w%3D0%26h%3Dk-AxQ99PhbB2YubTQn2pfu6pzoSQtpHH-gmjFdHfkg8%3D&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fbackground-of-traditional-african-village-houses&tbnid=LiErPbzzB8W_KM&vet=12ahUKEwi3vubfxNDnAhXr4IUKHdH_C8wQMyhYegUIARDAAQ..i&docid=Lt8YU0fDh4D3zM&w=612&h=341&q=african%20background%20images&hl=en&ved=2ahUKEwi3vubfxNDnAhXr4IUKHdH_C8wQMyhYegUIARDAAQ);
+}
+body {
+    background-image: url(tree.jpg); background-size: cover;
+}
+.card-body {
+    background-image: inherit; background-size: cover;
+}

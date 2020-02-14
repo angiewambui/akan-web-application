@@ -1,38 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AKAN NAME APP</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
-</head>
-<body>
-    <h1>AKAN NAME WAPP</h1>
-    <p>This is a webpage that allows users to enter their birthdates,their gender and once submit is clicked,the Akan name is displayed.
-        Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names:
-        <h2>males names</h2>
-        <ul>
-            <li>Sunday: Kwasi</li>
-               <li>Monday: Kwadwo</li>
-                <li>Tuesday: Kwabena</li>
-              <li>Wednesday: Kwaku</li>
-                <li>Thursday:  Yaw</li>
-              <li>Friday: Kofi</li>
-                <li>Saturday: Kwame</li>
-        </ul>
-        
-        <h3>female names</h3>
-        <ul>
-          <li>Sunday; Akosua</li>
-   <li>Monday: Adwoa</li>
-<li>Tuesday: Abenaa</li>
-<li>Wednesday: Akua</li>
-<li>Thursday:  Yaa</li>
-<li>Friday: Afua</li>
-<li>Saturday: Ama</li>
-        </ul>
+</p>html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <div id="background">
+  <title>AKAN NAME APP</title>
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>AKAN NAME WEBAPP</h1>
+    </div>
+  </div>
+  <p>This is a webpage that allows users to enter their birthdates,their gender and once submit is clicked,the Akan name
+    is displayed.
+    Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day
+    name' which corresponds to the day in the week they were born. Here are Ghanian day names:
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h2>males names</h2>
+          <ul>
+            <li>Sunday: Kwasi</li>
+            <li>Monday: Kwadwo</li>
+            <li>Tuesday: Kwabena</li>
+            <li>Wednesday: Kwaku</li>
+            <li>Thursday: Yaw</li>
+            <li>Friday: Kofi</li>
+            <li>Saturday: Kwame</li>
+          </ul>
+        </div>
+      </div>
+    </div>>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h3>female names</h3>
+          <ul>
+            <li>Sunday; Akosua</li>
+            <li>Monday: Adwoa</li>
+            <li>Tuesday: Abenaa</li>
+            <li>Wednesday: Akua</li>
+            <li>Thursday: Yaa</li>
+            <li>Friday: Afua</li>
+            <li>Saturday: Ama</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h1>Below is a form where you can enter your birthdates and your gender:</h1>
+    <form>
+      <label for="dateofbirth">Date of birth:</label><br>
+      <input type="number" id="dateofbirth" name="dateofbirth" value=><br>
+      <label for="month">Month:</label><br>
+      <input type="text" id="month" name="month" value="">
+      <label for="Year">Year:</label><br>
+      <input type="number" id="Year" name="year" value="">
+    </form>
+    
+
+  </div>
 </body>
 </html>
