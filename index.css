@@ -7,3 +7,15 @@ body {
 .card-body {
     background-image: inherit; background-size: cover;
 }
+#form{
+    color: white
+    font-size: 100%
+;
+}
+h3{
+    color: white;
+    font-size: 200%;
+}
+#gender{
+    text-align: center;
+}
