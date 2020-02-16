@@ -58,21 +58,20 @@
     <div id="form">
       <div id="gender">
     <form>
-      <label for="dateofbirth">Date of birth:</label><br>
-      <input type="number" id="dateofbirth" name="dateofbirth" value=><br>
-      <label for="month">Month:</label><br>
-      <input type="text" id="month" name="month" value="">
-      <br><br>
-      <label for="Year">Year:</label><br>
-      <input type="number" id="Year" name="year" value="">
-      <br>
-      <h4>Gender:</h4>
-      <br>
-      <input type="radio" id="male" name="gender" value="male">
-      <label for="male">Male</label><br> 
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">Female</label><br>
-      </div>
+      <input type="number" id="DOB" placeholder="day">
+    <br>
+    <input type="number" id="MOB" placeholder="month">
+    <br>
+    <input type="number" id="YOB" placeholder="year">
+    <br>
+    <select id="gender">
+        <option value="default" selected="selected"> Choose Gender </option>
+        <option value="male"> Male </option>
+        <option value="female"> Female </option>
+    </select>
+    <br>
+    <button onclick="getDate()" id="cmd1"> Click me </button>
+    </div>
     </form>
     </div>
   </div>
