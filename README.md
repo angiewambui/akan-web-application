@@ -14,7 +14,7 @@ This is a project that allows the user to enter their birthdates and then displa
 *use code
 
 ## link to live site
- 
+  https://angiewambui.github.io/akan-web-application/.
 
  ## copyright and license
                      GNU GENERAL PUBLIC LICENSE
